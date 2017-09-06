@@ -1,0 +1,59 @@
+CNIT 133A – JavaScript Libraries and Frameworks Homework 1 
+By Jennifer Howe
+
+
+1) Which of the one below is not a JavaScript variable name? (0.5 points) 
+
+a) 6myvar b) myvar c) myvar6 d) All are ok to be variable names 
+
+>> a
+
+2) What is the difference between null and undefined? (0.5 points) 
+
+>>  undefined means the variable is declared but has not been assigned a value.
+       null is a special value which means no value, null == null is 
+
+3) What is the use of isNaN function? (1 point) 
+
+>> The isNaN function is used to test whether a value is an number or not.
+
+4) How do you insert comments in a JavaScript code? (0.5 points) 
+
+>> 
+// JavaScript single-line comment
+
+ /*
+JavaScript 
+Multi-line 
+comments
+*/
+
+5) What would be the result of 5+3+”4”+2+3 in a JavaScript program? (0.5 points) 
+
+>> 845
+
+6) What is the output for the code below? (0.5 points) 
+
+ x = 100 / “orange”; 
+
+>> NaN
+
+7) Complete the statement below that is based on the continue and break statements used in JavaScript (0.5 points) 
+
+>> The __break_____ statement will get out of a loop while the ____continue____ statement will go over only one iteration in the loop. 
+
+
+8) What is the following code doing? (0.5 points) 
+
+var myarray = []; myarray.push(34); 
+
+>> 
+var myarray = [];  // creating an array called myarray.
+myarray.push(34);  // adding a new element (34) to myarray
+
+ 
+9) Look at this statement (0.5 points): 
+alert(“Hello”, “Good morning”, “Good afternoon”); 
+This statement will a) produce an error as the alert function only accepts one argument b) it will show an alert box with the 3 strings as messages c) it will show undefined d) JavaScript is ok with this statement because parameters that are not being expected are ignored 
+
+>> a

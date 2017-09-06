@@ -255,7 +255,7 @@
       <workItem from="1504484000138" duration="1216000" />
       <workItem from="1504504803944" duration="8221000" />
       <workItem from="1504663675178" duration="12730000" />
-      <workItem from="1504700786628" duration="177000" />
+      <workItem from="1504700786628" duration="281000" />
     </task>
     <task id="LOCAL-00001" summary="[added] added homework 2 part 1 files">
       <created>1504536725806</created>
@@ -278,11 +278,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504700858245</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[updated] cnit133a folder">
+      <created>1504701004731</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1504701004731</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22355000" />
+    <option name="totallyTimeSpent" value="22459000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -315,7 +322,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[added] added homework 2 part 1 files" />
     <MESSAGE value="[added] added homework 2 part 2 files" />
-    <option name="LAST_COMMIT_MESSAGE" value="[added] added homework 2 part 2 files" />
+    <MESSAGE value="[updated] cnit133a folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="[updated] cnit133a folder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
