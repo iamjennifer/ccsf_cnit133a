@@ -21,18 +21,24 @@
 
 
                 // STEP 1.
-                // retrieve all the h2 by filter with an id attribute and put them into an array
-                var h2NameArray = $("[id]").toArray();
+                // retrieve all the h2 and put them into an array
+                var h2NameArray = $("h2").toArray();
+
 
                 // testing the value of the array
-                // for (var i = 0; i< h2NameArray.length; i++) {
-                // alert(h2NameArray[i].innerHTML);
-                // }
+//                 for (var i = 0; i< h2NameArray.length; i++) {
+//                     alert(h2NameArray[i].innerHTML);
+//                 }
+
 
                 // STEP 2.
-                // create an unordered list
+                // create an unordered list and set id name
                 var newUL = $("<ul></ul>");
+
                 for (var i = 0; i< h2NameArray.length; i++) {
+
+
+                    // create li
                     var newLI = $("<li></li>");
                     var newALink = $("<a></a>");
 
@@ -40,12 +46,18 @@
                     newALink.text(h2NameArray[i].innerHTML);
                     newLI.append(newALink);
                     newUL.append(newLI);
+
+                    // set h2 id name
+                    var newText = "<a id='certificate_" + (i + 1) + "'>" + h2NameArray[i].innerHTML + "</a>";
+                    $(h2NameArray[i]).html(newText);
+
+
                 }
 
                 // STEP 3.
                 // attach to the page
                 $('.content h1').after(newUL);
-            
+
 
         });
 
@@ -60,7 +72,7 @@
         <h1>Computer Networking and Information Technology</h1>
 
 
-        <h2><a id="certificate_1">Beginning Web Development Certificate</a></h2>
+        <h2>Beginning Web Development Certificate</h2>
 
         <h3>CNIT 131H</h3>
         <p> Introduction to HTML &amp; CSS – a light introduction course to
@@ -78,7 +90,7 @@
 
         <hr/>
 
-        <h2><a id="certificate_2">Advanced Web Development Certificate</a></h2>
+        <h2>Advanced Web Development Certificate</h2>
 
         <h3>CNIT 133</h3>
         <p> JavaScript, jQuery, AXAX – this course starts with the basics of JavaScript up to more advanced
@@ -90,7 +102,7 @@
 
         <hr/>
 
-        <h2><a id="certificate_3">Optional for Web Development Certificate</a></h2>
+        <h2>Optional for Web Development Certificate</h2>
 
         <h3>CNIT 129</h3>
         <p> Web 2.0 Technologies – the study and use of different web 2.0 technologies and their
@@ -103,7 +115,7 @@
 
         <hr/>
 
-        <h2><a id="certificate_4">Other Certificates</a></h2>
+        <h2>Other Certificates</h2>
 
         <h3>Cybersecurity</h3>
         <p>For students interested in the network security area. </p>
