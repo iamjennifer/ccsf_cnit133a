@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Homework 3 Part I</title>
+      <meta charset="utf-8">
+      <script src="http://d3js.org/d3.v3.min.js"></script>
+      <script src="res/js/d3.min.js"></script>
+      <style>
+          .bgColor {
+              background-color: #cccccc;
+          }
+      </style>
+
+  </head>
+  <body>
+ 
+    <script>
+        var data = [1, 2, 3, 4, 5, 6];
+
+        // get function for category10() to pass in with fill attr
+        var c10 = d3.scale.category10();
+        
+        var scale = d3.scaleLinear()
+           .domain([1, 6])
+           // reset range from 0 to 10, so the stroke will show properly
+           .range([10, 500]);
+        
+        var svg = d3.select("body")
+            // adding background color
+            .classed("bgColor", true)
+            .append("h1")
+            .text("Working with D3")
+            .style("text-align", "center")
+            .append("svg")
+            .attr("width", 600)
+            .attr("height", 250)
+            // use category10 by adding id c10 - doesn't seem to be necessary
+//            .attr("id", "c10")
+            .style("display","block");
+        
+        svg.selectAll("rect")
+            .data(data)
+            .enter().append("rect")
+            .attr("x", function (d) { return scale(d); })
+            .attr("y", 30)
+            .attr("width", 50)
+            .attr("height", 50)
+            // use category10() for fill color
+            .style("fill", c10)
+            .style("stroke-width", "5")
+            .style("stroke", "black");
+
+    </script>
+  </body>
+</html>
+ 
