@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a15c4a64-5070-4775-9992-5d86536b965b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw_4/js/main.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/runConfigurations/hw3bar_html.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/hw4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw_4/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw_4/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw_4/js/backbone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw_4/js/backbone_min_0.9.2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw_4/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw_4/js/underscore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw_4/js/underscore_min_1.4.2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_category10.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw3.html" afterPath="$PROJECT_DIR$/hw3.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,28 +25,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hw_4/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hw_4/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="42" column="43" lean-forward="false" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -102,38 +87,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cnit133a_homework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cnit133a_homework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cnit133a_homework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hw_4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cnit133a_homework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cnit133a_homework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hw_4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -264,7 +217,7 @@
       <workItem from="1506224312027" duration="190000" />
       <workItem from="1507975965070" duration="4045000" />
       <workItem from="1508046757129" duration="6805000" />
-      <workItem from="1508062128984" duration="59000" />
+      <workItem from="1508062128984" duration="181000" />
     </task>
     <task id="LOCAL-00001" summary="[added] added homework 2 part 1 files">
       <created>1504536725806</created>
@@ -301,11 +254,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505490199326</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[added] added files and finished homework 4 backbone">
+      <created>1508062233345</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1508062233345</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52107000" />
+    <option name="totallyTimeSpent" value="52229000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="23" width="1377" height="873" extended-state="0" />
@@ -340,7 +300,8 @@
     <MESSAGE value="[added] added homework 2 part 2 files" />
     <MESSAGE value="[updated] cnit133a folder" />
     <MESSAGE value="[added] added files and finished homework 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="[added] added files and finished homework 3" />
+    <MESSAGE value="[added] added files and finished homework 4 backbone" />
+    <option name="LAST_COMMIT_MESSAGE" value="[added] added files and finished homework 4 backbone" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -546,18 +507,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hw_4/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hw_4/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="42" column="43" lean-forward="false" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_4/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding />
         </state>
       </provider>
