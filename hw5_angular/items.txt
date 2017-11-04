@@ -1,0 +1,13 @@
+
+
+[
+   {"Title": "Tokaido Board Game", "Price": "34.97", "Image" : "images/tokaido.jpg", "Description" : "Each player is a traveler crossing the East sea road, one of the most magnificent roads of Japan. While traveling, players will meet people, taste fine meals, collect beautiful items, discover great panoramas and visit temples and wild places."},
+   {"Title": "Sequence Game", "Price": "13.99", "Image" : "images/sequence.jpg","Description" : "Sequence is a board and card game. The board shows all the cards of two standard 52-card decks, laid in a 10 x 10 pattern. The four corners are free spaces and count for all players equally."},
+   {"Title": "Pandemic Board Game", "Price": "29.09", "Image" : "images/pandemic.jpg", "Description" : "Four diseases have broken out in the world and it is up to a team of specialists in various fields to find cures for these diseases before mankind is wiped out."},
+   {"Title": "Catan Board Game" , "Price": "34.99", "Image" : "images/catan.jpg",  "Description" : "Your adventurous settlers seek to tame the remote but rich isle of Catan. Start by revealing Catan many harbors and regions. The random mix creates a different board virtually every game."},
+   {"Title": "Photosynthesis" , "Price": "34.97", "Image" : "images/photosynthesis.jpg", "Description" : "Welcome to the world of photosynthesis, the green strategy board game! plant and shape the ever-changing forest as you cultivate your seeds and your strategy."},
+   {"Title": "Ticket To Ride" , "Price": "35.53", "Image" : "images/ticketToRide.jpg", "Description" : "The Ticket To Ride Board Game is a cross-country train adventure that celebrates Fogg impetuous and lucrative gamble to travel Around the World in 80 Days by proposing a new wager."},
+   {"Title": "Qwirkle Board Game"  , "Price": "19.97", "Image" : "images/qwirkle.jpg", "Description" : "Featuring a massive amount of in-game choices, including three tiles each of thirty-six possible color-symbol combinations, Qwirkle is the perfect game to hone player's tactical maneuvers, strategical planning, and forward thinking."}
+]
+
+
