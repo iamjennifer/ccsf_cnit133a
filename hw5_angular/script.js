@@ -43,7 +43,7 @@ app.controller('toySearchController', function($scope, $http){
     });
 
     // show/hide description
-    $scope.showMe = true;
+    $scope.showMe = false;
     $scope.toggle = function() {
         $scope.showMe = !$scope.showMe;
     };
