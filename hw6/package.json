@@ -1,0 +1,14 @@
+{
+  "name": "hw6",
+  "version": "1.0.0",
+  "description": "CNIT133A homework 6 nodeJS",
+  "main": "page.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jennifer Howe",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
